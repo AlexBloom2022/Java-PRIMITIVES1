@@ -4,12 +4,12 @@ public class Main {
 
 
         int ticketPrice = 100;     //стоимость билета
-        int bonusMilePrice = 20;   //стоимость одной мили
-        int bonusMileAmount = ticketPrice / bonusMilePrice;
+        int ticketAmount = 3;   //количество билетов
+        int bonusMilesAmount = ticketPrice * ticketAmount / 20;
 
 
         System.out.println("количество начисленных миль за купленный билет:");
-        System.out.println((bonusMileAmount) + "миль");
+        System.out.println((bonusMilesAmount) + "миль");
 
 
     }
